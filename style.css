@@ -1,0 +1,115 @@
+body {
+  font-family: Montserrat, sans-serif
+}
+
+@media (min-width: 768px) {
+  .header-container {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #01B74F;
+    height: 70px;
+  }
+  .section {
+    height: 609.258px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-container {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    background-color: #01B74F;
+    height: 70px;
+  }
+
+  .section {
+    height: 609.258px;
+  }
+}
+
+.vp-logo{
+  position: relative;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  width: 170.734px;
+  height: 106.666px;
+  overflow: hidden;
+}
+.aws-logo{
+  position: relative;
+  top: 50%;
+  left: 7%;
+  transform: translate(-50%, -50%);
+  width: 91.6465px;
+  height: 91.6465px;
+  overflow: hidden;
+}
+
+.vp-image-background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://w.ladicdn.com/s500x450/648c35ac4a37000012b68727/9d8ed5_a09946cdd2e445fb8345e81d9d88039amv2-20230825140232-cws6w.png");
+}
+
+.header-line {
+  position: relative;
+}
+
+.ladi-group {
+  position: absolute  ;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ladi-button{
+  display: inline-block;
+  margin: 0 8px;
+  background-color: #01B74F;
+  color: #fff;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+   
+}
+
+.button-selected {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.6;
+  text-align: center;
+  background-color:#fff;
+  color: #01B74F;
+  border-width: 1px;
+  border-radius: 25px;
+  border-color: rgb(244, 64, 37);
+}
+  
+.ladi-section {
+  margin: 0 auto;
+  position: relative;
+  height: 609.258px;
+  
+}
+
+
+.section-background {
+  position:fixed;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgb(34, 95, 115), rgb(0, 183, 79));
+      background-color: initial;
+      background-size: initial;
+      background-origin: initial;
+      background-position: initial;
+      background-repeat: initial;
+      background-attachment: initial;
+}
